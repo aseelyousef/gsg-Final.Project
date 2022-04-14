@@ -1,0 +1,111 @@
+html,body{
+    background-color: #E9E9E9;
+    height: 100%;
+    font-family: arial;
+}
+.content{
+    width:100%;
+    height: 100%;
+    display: table;
+
+}
+.form{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.form-content{
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: white;
+    border-radius: 10px;
+}
+.form-group{
+    padding: 10px;
+}
+.form-input{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+}
+#login-btn{
+background-color: red;
+color: white;
+text-decoration: none;
+padding: 10px 18px;
+display: inline-block;
+border-radius: 5px;
+}
+#login-btn :hover{
+    background-color: cyan;
+}
+.patiente-title{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+.patient-table{
+    padding-left: 80px;
+    padding-right: 90px;
+    padding-top: 25px;
+    
+}
+#patient-t{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+#patient-t th{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+#patient-t tr{
+    background-color: #f2f2f2;
+}
+#patient-t td{
+    text-align: left;
+    padding: 10px;
+}
+.edit-table{
+background-color:green;
+color: white;
+text-decoration: none;
+padding: 6px 10px;
+display: inline-block;
+border-radius: 5px;
+}
+.delete-table{
+background-color: red;
+color: white;
+text-decoration: none;
+padding: 6px 10px;
+display: inline-block;
+border-radius: 5px;
+}
+.add-p{
+    background-color:green;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px; 
+}
+.add{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+}
+select{   
+    width: 12%;
+    height: 38px;
+    padding: 8px;   
+}
+p{
+  font-size: 20px;  
+}
